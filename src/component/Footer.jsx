@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <span className="ml-3 text-xl text-white">Task Management</span>
+            <span className="ml-3 text-xl text-white hover:text-purple-300 hover:underline cursor-pointer   ">Task Management</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © 2024 Codingsluv. All rights reserved.
@@ -24,16 +24,16 @@ export default function Footer() {
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="text-gray-500">
-            <FaFacebook className="mr-1 cursor-pointer size-6" />
+            <FaFacebook className="mr-1 cursor-pointer size-6 hover:text-purple-300" />
           </a>
           <a className="ml-3 text-gray-500">
-            <FaSquareXTwitter className="mr-1 cursor-pointer size-6" />
+            <FaSquareXTwitter className="mr-1 cursor-pointer size-6 hover:text-purple-300" />
           </a>
           <a className="ml-3 text-gray-500">
-            <FaLinkedin className="mr-1 cursor-pointer size-6" />
+            <FaLinkedin className="mr-1 cursor-pointer size-6 hover:text-purple-300" />
           </a>
           <a className="ml-3 text-gray-500">
-            <FaInstagram className="mr-1 cursor-pointer size-6" />
+            <FaInstagram className="mr-1 cursor-pointer size-6 hover:text-purple-300" />
           </a>
         </span>
       </div>
