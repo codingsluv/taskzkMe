@@ -1,3 +1,4 @@
+import TaskButton from "./component/task/TaskButton";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 
@@ -16,9 +17,8 @@ export default function App() {
             DaisyUI.
           </p>
           <div className="flex justify-center items-center mt-6">
-            <button className="bg-slate-300 text-black px-4 py-2 rounded-md hover:bg-purple-400 focus:outline-none">
-              Get Started
-            </button>
+            <TaskButton />
+            {/* Add more buttons for Sign Up, Forgot Password, etc. */}
           </div>
         </div>
       </div>

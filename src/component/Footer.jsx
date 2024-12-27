@@ -8,14 +8,13 @@ export default function Footer() {
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <span className="ml-3 text-xl text-white hover:text-purple-300 hover:underline cursor-pointer   ">Task Management</span>
         </a>
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 hover:text-purple-300 cursor-pointer">
           © 2024 Codingsluv. All rights reserved.
         </p>
         <p className="text-sm font-medium text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">
           Made with ❤️ by
           <a
-            href="https://twitter.com/knyttneve"
-            className="text-gray-600 ml-1"
+            className="text-gray-600 ml-1 hover:text-purple-300 cursor-pointer"
             rel="noopener noreferrer"
             target="_blank"
           >
