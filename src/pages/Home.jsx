@@ -1,4 +1,5 @@
-import TaskButton from "./component/task/TaskButton";
+import { Link } from "react-router";
+
 
 export default function Home() {
     return (
@@ -11,9 +12,13 @@ export default function Home() {
             A simple task management app built with React, Tailwind CSS, and
             DaisyUI.
           </p>
-          <div className="flex justify-center items-center mt-6">
-            <TaskButton />
+          <div className="text-center py-4">
+            <Link to="/task"
+              className="btn hover:bg-purple-400 hover:text-white">
+              Get Started Build Your Task 🚀
+            </Link>
           </div>
+            
         </div>
       </div>
     );
