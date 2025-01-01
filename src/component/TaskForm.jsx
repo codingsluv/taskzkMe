@@ -2,12 +2,14 @@ import { useState } from "react";
 
 export default function TaskForm({ onAddTask }) {
     const [task, setTask] = useState("");
+    const [desc, setDesc] = useState("");
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      if (task.trim() !== "") {
-        onAddTask(task);
+      if (task.trim() !== "" && desc.trim() !== "") {
+        onAddTask(task, desc);
         setTask("");
+        setDesc("");
       }
     };
   
@@ -20,6 +22,15 @@ export default function TaskForm({ onAddTask }) {
             className="input input-bordered w-full max-w-xs"
             value={task}
             onChange={(e) => setTask(e.target.value)}
+          />
+        </div>
+        <div className="card-subtitle py-6">
+          <input
+            type="text"
+            placeholder="Description..."
+            className="input input-bordered w-full max-w-xs"
+            value={desc}
+            onChange={(e) => setDesc(e.target.value)}
           />
         </div>
         <div className="card-actions justify-end">
